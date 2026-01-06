@@ -1,7 +1,7 @@
 #  Satellite-Driven Wildfire Impact Analysis
 
 ##  Project Overview
-Wildfires pose serious environmental, economic, and social challenges. This project investigates whether **spatiotemporal metadata alone**—specifically *location* and *time of occurrence*—can be used to **predict the cause of wildfires** in the United States using machine learning.
+Wildfires pose serious environmental, economic, and social challenges. This project investigates whether **spatiotemporal metadata alone** specifically *location* and *time of occurrence* can be used to **predict the cause of wildfires** in the United States using machine learning.
 
 The study applies a full end-to-end **data science pipeline** on a large-scale historical wildfire dataset and evaluates multiple advanced models to determine their effectiveness under real-world constraints.
 
@@ -13,10 +13,10 @@ The study applies a full end-to-end **data science pipeline** on a large-scale h
 ---
 
 ##  Objectives
-- Analyze large-scale wildfire records using spatial and temporal data  
+- Analyze large scale wildfire records using spatial and temporal data  
 - Engineer meaningful geographic and time-based features  
 - Address severe class imbalance in wildfire causes  
-- Compare multiple ML models for multi-class classification  
+- Compare multiple ML models for multi class classification  
 - Evaluate feasibility and limitations of metadata-only prediction  
 
 ---
@@ -29,7 +29,7 @@ The study applies a full end-to-end **data science pipeline** on a large-scale h
 ---
 
 ##  Dataset
-- **Source**: U.S. Forest Service – Fire Program Analysis Fire-Occurrence Database (FPA-FOD)
+- **Source**: U.S. Forest Service  Fire Program Analysis Fire-Occurrence Database (FPA-FOD)
 - **Size**: ~1.88 million wildfire records
 - **Years Covered**: 1992–2015
 - **Format**: SQLite
@@ -100,7 +100,7 @@ Key features include:
 ---
 
 ##  Key Insights
-- Wildfire causes are **not random**—clear spatial and seasonal patterns exist
+- Wildfire causes are **not random** clear spatial and seasonal patterns exist
 - **Geo-clustering significantly improves spatial learning**
 - Metadata-only models have **performance limits**
 - Environmental variables (weather, vegetation, humidity) are likely required for higher accuracy
